@@ -1,6 +1,6 @@
-#abstractmehtod for a method
+# abstractmehtod for a method
 # cant instantitate with abstractproperty
-#abstract class must have one abstarct method
+# abstract class must have one abstarct method
 # we can use abstractproperty also
 import abc
 from abc import ABC,abstractmethod
@@ -10,7 +10,7 @@ class Grandfather(ABC):
         self.firstname=firstname
         self.lastname=lastname
 
-    @abstractmethod
+    @abstractmethod # @abstractproperty needs @property to modify
     def full_name(self):
         print (self.firstname+self.lastname)
         
