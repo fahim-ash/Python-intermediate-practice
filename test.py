@@ -1,19 +1,16 @@
-#testing abstraction
-#testing new change
-from abc import ABC,abstractmethod,abstractproperty
-class Car(ABC):
-    def __init__(self,year,make):
-        self.year=year
+class Car():
+    #constructor
+    def __init__ (self,make,year):
         self.make=make
-    @abstractproperty # also @abstractmehtod 
-    def drive(self):
-        pass
+        self.year=year
 
-class Vehicle(Car):
-    @property
-    def drive(self):
-        return (f"{self.make} is running since {self.year}")
-        
+    #method
+    def run(self):
+        print(f"this {self.make} is rinning")
 
-car_1=Vehicle("1996","BMW")
-print(car_1.drive)
+
+car1=Car("Toyota",2015)
+car2=Car("BMW",2015)
+
+car1.run()
+car2.run()

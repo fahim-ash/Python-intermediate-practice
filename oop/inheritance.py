@@ -10,7 +10,6 @@ class Son(Father):
     pass
 
 
-
 Bokdul=Son("half property")
 print(Bokdul.property)
 Bokdul.grandfather("bokdul")
