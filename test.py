@@ -9,8 +9,6 @@ class Car(ABC):
         return (f"{self.make} is running since {self.year}")
 
 class Vehicle(Car):
-    # def __init__(self,year,make):
-    #     super.__init__(year,make)
     
     def drive(self):
         pass
