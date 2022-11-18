@@ -5,7 +5,7 @@
 
 
 #-------@staticmethod---------#
-#same as classmethod, we dont need to create a object
+# same as classmethod, we dont need to create a object
 # we still need constructor self. to clarify
 # can only use the parameters we are passing// cant access population 
 
@@ -20,12 +20,16 @@ class population(object):
   
     @classmethod
     def getPopulation(cls): # can use anything public in the class(specially methods)
-        print(cls.population,cls.isAdult(15))
+        print(cls.population)
         return cls.population
 
     @staticmethod
     def isAdult(age):
+        # print((population.info()))
         return age >=18 
+
+
+        
 person=population("moksed",30)
 print(population.getPopulation())
 print(population.isAdult(200))
