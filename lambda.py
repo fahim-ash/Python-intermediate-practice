@@ -3,7 +3,7 @@
 # need better code example
 
 #basic
-count=lambda x: x+5;
+count=lambda x: x+5
 # print(count(15))
 
 #with filter and map
@@ -12,6 +12,14 @@ smaller=list(filter(lambda x:x<5,word))
 adder=list(map(lambda x:x+5,word))
 
 
-# lambda to sort (still have to clarify)
-sorted_list = sorted(word, key=lambda x: x[0:])
-print(sorted_list)
+# lambda to sort list
+sorted_list = sorted(word, key=lambda x: x) # works
+
+
+#dict sort
+hash = [{"name": "Nandini", "age": 20},
+       {"name": "Manjeet", "age": 20},
+       {"name": "Nikhil", "age": 19}]
+
+sorter=sorted(hash, key=lambda x: x["age"])
+print(sorter)
