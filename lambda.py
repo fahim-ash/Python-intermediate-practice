@@ -21,5 +21,6 @@ hash = [{"name": "Nandini", "age": 20},
        {"name": "Manjeet", "age": 20},
        {"name": "Nikhil", "age": 19}]
 
-sorter=sorted(hash, key=lambda x: x["age"])
+sorter=sorted(hash, key=lambda x: x["name"])
+
 print(sorter)

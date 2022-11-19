@@ -13,13 +13,26 @@ class Father(object):
         print(f"{name} its your shompotti")
     
 class Son(Father):
-    def __init__(self):
-        super().__init__('yoo')
-        print("super is working")
+    # def show(self):
+    #     print(self.property) -> will be problem for multiple inheritance
+    def __init__(self,property):
+        super().__init__(property)
+        self.property=property
+        
+    def show(self):
+        print(self.property)
 
+a=Son(".......................")
+a.show()
+a.grandfather("kashem")
 
-a=Son()
-print(a.property)
-a.grandfather("Bokdul")
+"""
+main reason to use super()
+The reason we use super is so that child classes that may be using cooperative 
+multiple inheritance will call the correct next parent class function
+in the Method Resolution Order (MRO). Without super, 
+you are limited in your ability to use multiple inheritance 
+because you hard-wire the next parent's call: Base.
 
+"""
 

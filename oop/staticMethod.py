@@ -1,12 +1,12 @@
 #--------@classmethod---------#
-# for the @classmethod we dont need to ceate a object
+# for the @classmethod we dont need to ceate an object
 # for the @classmethod we have to use cls to take the argument
 # takes the whole class as an argument so it has access in everything
 
 
 #-------@staticmethod---------#
 # same as classmethod, we dont need to create a object
-# we still need constructor self. to clarify
+# its just a regular function, but we chose to use it inside a class :)
 # can only use the parameters we are passing// cant access population 
 
 class population(object):

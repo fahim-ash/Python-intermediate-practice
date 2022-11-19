@@ -1,6 +1,5 @@
-
 # Magic or dunder methods: starts and ends with __middle__
-# it isnt invoked by user ,it auto invokdes in the background when we do some task 
+# it isnt invoked by user ,it auto invokes in the background when we do some task 
 # suppose __add__ auto invokes when + is used.
 # print(dir(int)) --> prints all the magic or dunder methods
 # 
