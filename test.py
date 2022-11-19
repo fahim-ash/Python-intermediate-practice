@@ -6,7 +6,7 @@ class Car():
         
     @classmethod
     def sum(cls):
-      return cls.
+      return cls.x
 
 
 Car1=Car(200,"toyota")
