@@ -1,5 +1,4 @@
 # abstractmehtod for a method
-# cant instantitate with abstractproperty
 # abstract class must have one abstarct method
 # we can use abstractproperty also
 import abc

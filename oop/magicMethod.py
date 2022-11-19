@@ -12,8 +12,6 @@ class Person:
         self.a=self.a*b
     def __call__(self,y):
         print("you called",y)
-
 yo=Person("ash")
 yo()
-
 
