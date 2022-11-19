@@ -2,7 +2,7 @@
 # it isnt invoked by user ,it auto invokes in the background when we do some task 
 # suppose __add__ auto invokes when + is used.
 # print(dir(int)) --> prints all the magic or dunder methods
-# 
+# practice some more dunder methods 
 
 
 class Person:
@@ -12,6 +12,8 @@ class Person:
         self.a=self.a*b
     def __call__(self,y):
         print("you called",y)
+
 yo=Person("ash")
 yo()
+
 

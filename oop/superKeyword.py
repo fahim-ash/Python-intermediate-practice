@@ -1,4 +1,4 @@
-#self represents the instance of the class. 
+# self represents the instance of the class. 
 # By using the “self” we can access the attributes and methods of the class in python. 
 # It binds the attributes with the given arguments. 
 # The reason you need to use self. is because Python does not use the @ syntax to refer to instance attributes.
@@ -33,6 +33,9 @@ multiple inheritance will call the correct next parent class function
 in the Method Resolution Order (MRO). Without super, 
 you are limited in your ability to use multiple inheritance 
 because you hard-wire the next parent's call: Base.
+
+
+--> super returns a proxy object of the parent Class
 
 """
 
