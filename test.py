@@ -1,16 +1,14 @@
 class Car():
-    #constructor
-    def __init__ (self,make,year):
-        self.make=make
+    x=100
+    def __init__(self,year,make):
         self.year=year
+        self.make=make
+        
+    @classmethod
+    def sum(cls):
+      return cls.
 
-    #method
-    def run(self):
-        print(f"this {self.make} is rinning")
 
+Car1=Car(200,"toyota")
 
-car1=Car("Toyota",2015)
-car2=Car("BMW",2015)
-
-car1.run()
-car2.run()
+print(Car.sum)
