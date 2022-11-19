@@ -6,12 +6,19 @@
 
 
 class Person:
-    def __init__(self,a):
-        self.a=a
-    def __mul__(self,b):
-        self.a=self.a*b
-    def __call__(self,y):
-        print("you called",y)
-yo=Person("ash")
-yo()
+    def __init__(self,name,number):
+        self.name=name
+        self.number=number
 
+    # def __repr__(self):
+    #     return self.name
+    def __call__(self,times):
+        print(times)
+        self.number*=times
+        print(self.number)
+    def __add__(self,n):
+        print(self.number+n)
+      
+P=Person("moksed",2441139)
+P(100) #automatically use __calls__ when detects 
+P+100  #adds

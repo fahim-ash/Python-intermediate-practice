@@ -22,6 +22,7 @@ class population(object):
     def getPopulation(cls): # can use anything public in the class(specially methods)
         print(cls.population)
         return cls.population
+        
 
     @staticmethod
     def isAdult(age):
