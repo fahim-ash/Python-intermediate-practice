@@ -11,6 +11,7 @@ class Car():
 
     def hello(self):
         return ("hello" +" "+  Car.__taka)
+        
 class Rickshaw(Car):
     def __init__(self,year,make):
         super().__init__(year,make)

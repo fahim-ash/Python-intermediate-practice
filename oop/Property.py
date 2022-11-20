@@ -1,5 +1,6 @@
-#by using property we dont need to use the object
+# by using property we dont need to use the object
 # we can just refere to it
+# and we can use setter to overwrite it
 
 class User:
     def __init__(self,name,surename):

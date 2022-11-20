@@ -2,7 +2,7 @@
 # abstract class must have one abstarct method
 # we can use abstractproperty also
 import abc
-from abc import ABC,abstractmethod
+from abc import ABC,abstractmethod,abstractproperty
 
 class Grandfather(ABC):
     def __init__(self,firstname,lastname):
@@ -14,7 +14,6 @@ class Grandfather(ABC):
         print (self.firstname+self.lastname)
         
 class Son(Grandfather):
-
     def full_name(self):
         return self.firstname+self.lastname
 

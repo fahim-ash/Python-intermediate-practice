@@ -21,4 +21,18 @@ dicdoc.pop(1)
 
 # dicdoc.setdefault("d",10) -> important
 # dicdoc.update({"a":77})
-print(dicdoc)
+#dictionary comprehension
+import string
+old_price = {'milk': 1.02, 'coffee': 2.5, 'bread': 2.5}
+new_list={}
+res={chr(i): i-97 for i in range(97,123)}
+new_res={k: v*2 for (k,v) in res.items()}
+again_res={k:("even" if v%2==0 else "odd") for (k,v) in res.items()}
+print(again_res)
+
+dict1 = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f':6}
+
+# we can also use regular "and"
+dict1_tripleCond = {k:v for (k,v) in dict1.items() if v>2 if v%2 == 0 if v%3 == 0}
+
+print(dict1_tripleCond)

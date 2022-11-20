@@ -14,4 +14,4 @@ dict(),str(),complex()
 
 
 #to ascii value
-chr()
+chr() # lowercase range (97,123)

@@ -15,10 +15,11 @@ class population(object):
     def __init__(self,name,age):
         self.name=name
         self.age=age
+        
     def info(self): #why cant we access this -_-
         return (f"{self.name} is {self.age} years old")
   
-    @classmethod
+    @classmethod #gets all the class level attributes accesss
     def getPopulation(cls): # can use anything public in the class(specially methods)
         print(cls.population)
         return cls.population

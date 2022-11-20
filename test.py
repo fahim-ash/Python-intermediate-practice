@@ -1,14 +1,16 @@
-class Car():
-    x=100
-    def __init__(self,year,make):
-        self.year=year
-        self.make=make
-        
-    @classmethod
-    def sum(cls):
-      return cls.x
+# import itertools
+# z=list(itertools.permutations([1, 2, 3]))
+# print(z)
+# z=[1,3,1,2,4]
+# s={}
+# for i in range(len(z)):
+#     s[i]=z[i]
+    
+# print(s)
+from itertools import permutations
+z=[1,3,2,4]
+for i in range(len(z)):
+    for j in range()
+x=list(permutations(z))
+print(x)
 
-
-Car1=Car(200,"toyota")
-
-print(Car.sum)
