@@ -9,8 +9,23 @@
 # print(s)
 from itertools import permutations
 z=[1,3,2,4]
+res=[]
+
 for i in range(len(z)):
-    for j in range()
-x=list(permutations(z))
-print(x)
+    tmp=[str(z[i])]
+    
+    for j in range(i+1,len(z)):
+        print(tmp)
+        if (z[j] not in tmp):
+            tmp.append(str(z[j]))
+
+            if len(tmp)==3:
+                word="".join(tmp)
+                res.append(res)
+                tmp.pop()
+    
+        
+print(res)
+        
+
 
