@@ -15,4 +15,5 @@ add()
 #---- mutable,imutable------#
 
 # everything in python is object
-#
+# pyc is pythons compiled byte code
+# pyd is pythons windows dll file

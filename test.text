@@ -1,2 +1,23 @@
 "remember to quit vscode with command+q else folder will be closed"
 url="https://docs.google.com/spreadsheets/d/1WQNxYt3bLHmnh1zywi5ojvmtCLRWReAd/edit?usp=sharing&ouid=101184096154407653226&rtpof=true&sd=true"
+
+
+** still have to check
+- decorator,iterator,generaotr
+- File ,os module
+- Regx
+- logging
+- exception handling
+- method pack,unpack.yield
+- debugging
+- named tuple
+
+
+*** - lxml
+    - eval()
+    - pdb
+    - pickle
+    - pack unpack arguments 
+    - unicode
+
+**** -SQLalchemy 
