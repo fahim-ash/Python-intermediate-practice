@@ -8,8 +8,8 @@ dic methods -> clear ()-empty dic
             ->  keys() - keys
             ->  pop() - pops specified key
             ->  popitem() - pops last key value pair
-            ->setdefault()	- Returns the value of the specified key. 
-            If the key does not exist: insert the key, with the specified value
+            -> setdefault()	- Returns the value of the specified key. 
+                If the key does not exist: insert the key, with the specified value
             -> update() - update specified key value pair
 
 """
