@@ -5,7 +5,6 @@
 # s={}
 # for i in range(len(z)):
 #     s[i]=z[i]
-    
 # print(s)
 from itertools import permutations
 arr=[4,4,2,4,3]
