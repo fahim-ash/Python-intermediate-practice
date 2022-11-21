@@ -15,7 +15,9 @@ print(pointTuple[0]) # normal tuple behaviour
 for i in pointTuple:
     print(i)
 
+
 print(pointTuple._asdict()) # all the methods requirs _ as prefix
+print(pointTuple._fields) # returns all keys
 
 #also need to see DOC later
 

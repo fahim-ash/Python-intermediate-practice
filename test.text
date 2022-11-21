@@ -3,21 +3,11 @@ url="https://docs.google.com/spreadsheets/d/1WQNxYt3bLHmnh1zywi5ojvmtCLRWReAd/ed
 
 
 ** still have to check
-- decorator,iterator,generaotr
-- File ,os module
-- Regx
+- File 
 - logging
-- exception handling
-- method pack,unpack.yield
 - debugging
-- named tuple
 
-
-*** - lxml
-    - eval()
-    - pdb
-    - pickle
-    - pack unpack arguments 
-    - unicode
+*** - pdb
 
 **** -SQLalchemy 
+

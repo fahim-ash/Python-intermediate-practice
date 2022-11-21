@@ -1,13 +1,15 @@
-# need code
+# higher order function -> adds additional functioanlity
 
-def boss(fnc):
-    return ("foo")
+def smart_divide(func):
+    def inner(a, b):
+        return func(a, b)
+    return inner
 
-@boss
-def kamla():
-    print("bar")
 
-array=[3,2,0,10,11]
+@smart_divide
+def divide(a, b):
+    print(abs(a/b))
 
-kamla()
-
+x=int(input())
+y=int(input())
+divide(x,y)
