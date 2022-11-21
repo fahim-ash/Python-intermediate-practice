@@ -13,3 +13,21 @@ def divide(a, b):
 x=int(input())
 y=int(input())
 divide(x,y)
+
+#example 
+"""
+def validity(func):
+    def check(x):
+        if x=="fahim":
+            print("found")
+            return func(True)
+        return False
+    return check
+
+@validity
+def divide(x):
+    print("running")
+
+x=input()
+divide(x)
+"""
