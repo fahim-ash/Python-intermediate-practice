@@ -12,7 +12,8 @@ def divide(a, b):
 
 x=int(input())
 y=int(input())
-divide(x,y)
+mm=divide(x,y)
+
 
 #example 
 """
@@ -31,3 +32,19 @@ def divide(x):
 x=input()
 divide(x)
 """
+# example
+
+def extender(func):
+    def extra(word):
+        return func(f"{word} ashhab")
+    return extra
+    
+
+
+@extender
+def show(word):
+    print(word)
+
+
+word="hello world"
+show(word)
