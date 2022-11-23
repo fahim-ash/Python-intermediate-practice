@@ -20,7 +20,6 @@ class Rickshaw(Car):
         print(self.__make)
 
 
-
 Car1=Car(2019,"toyota")
 
 print(Car1.hello())
